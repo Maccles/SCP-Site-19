@@ -91,7 +91,7 @@ Function CreateNPC.NPCs(NPCtype%, x#, y#, z#)
 			EntityType n\Collider, HIT_PLAYER
 			n\Gravity = True
 			
-			n\obj = LoadMesh_Strict("GFX\npcs\173_2.b3d")
+			n\obj = LoadMesh_Strict("GFX\npcs\SCP_173.b3d")
 			
 			If IsHalloween Then
 				ChangeNPCTextureID(n, 1)
@@ -250,7 +250,7 @@ Function CreateNPC.NPCs(NPCtype%, x#, y#, z#)
 			n\Collider = CreatePivot()
 			EntityRadius n\Collider, 0.26
 			EntityType n\Collider, HIT_PLAYER
-			n\obj = LoadAnimMesh_Strict("GFX\npcs\scp096.b3d")
+			n\obj = LoadAnimMesh_Strict("GFX\npcs\SCP_096.b3d")
 			n\obj2 = CreatePivot(FindChild(n\obj, GetModdedINIString(NPCBones, "SCP-096", "face_bonename")))
 			
 			n\Speed = (GetModdedINIFloat("DATA\NPCs.ini", "SCP-096", "speed") / 100.0)

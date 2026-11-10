@@ -1,6 +1,6 @@
-Const VersionNumber$ = "1.3.12.7.1"
+Const VersionNumber$ = "Alpha 1.0"
 ;Only change this if the version given isn't working with the current build version - ENDSHN
-Const CompatibleNumber$ = "1.3.12.7.1"
+Const CompatibleNumber$ = "Alpha 1.0"
 
 InitErrorMsgs(11, True)
 SetErrorMsg(0, "An error occured in SCP - Containment Breach v" + VersionNumber)
