@@ -3,7 +3,7 @@ Const VersionNumber$ = "Alpha 1.0"
 Const CompatibleNumber$ = "Alpha 1.0"
 
 InitErrorMsgs(11, True)
-SetErrorMsg(0, "An error occured in SCP - Containment Breach v" + VersionNumber)
+SetErrorMsg(0, "An error occured in SCP - Site-19 v" + VersionNumber)
 SetErrorMsg(1, "Please send us the generated minidump along with a screenshot of this window!")
 SetErrorMsg(2, "---------------------------------------------------")
 SetErrorMsg(3, "OS: " + SystemProperty("os") + " " + (32 + (GetEnv("ProgramFiles(X86)") <> 0) * 32) + " Bit (Build: " + SystemProperty("osbuild") + ")")
@@ -28,9 +28,9 @@ Global ModsFile$ = DataDir + "mods.ini"
 Const OptionDefaultFile$ = "defaults.ini"
 
 Function InitDataDir$()
-	Local dir$ = GetEnv("AppData") + "\Undertow Games"
+	Local dir$ = GetEnv("AppData") + "\Maccles Games"
 	If FileType(dir) <> 2 Then CreateDir(dir)
-	dir = dir + "\SCP - Containment Breach\"
+	dir = dir + "\Site19\"
 	If FileType(dir) <> 2 Then CreateDir(dir)
 	Return dir
 End Function
@@ -2038,6 +2038,10 @@ End Function
 
 Global FogTexture%, Fog%
 Global GasMaskTexture%, GasMaskOverlay%
+Global HazmatTexture%, HazmatOverlay%
+Global Scp178Texture%, Scp178Overlay%
+;Global Scp409Texture%, Scp409Overlay%
+Global TorchTexture%, TorchOverlay%
 Global InfectTexture%, InfectOverlay%
 Global DarkTexture%, Dark%
 Global Collider%, Head%

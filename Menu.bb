@@ -1,4 +1,4 @@
-Global MenuBack% = LoadImage_Strict("GFX\menu\back.jpg")
+Global MenuBack% = LoadImage_Strict("GFX\menu\back.png")
 Global MenuText% = LoadImage_Strict("GFX\menu\scptext.jpg")
 Global Menu173% = LoadImage_Strict("GFX\menu\173back.png")
 MenuWhite = LoadImage_Strict("GFX\menu\menuwhite.jpg")
