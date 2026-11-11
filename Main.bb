@@ -7922,7 +7922,7 @@ Function LoadEntities()
 	
 	;Other NPCs pre-loaded
 	;[Block]
-	NPC049OBJ = LoadAnimMesh_Strict("GFX\npcs\scp-049.b3d")
+	NPC049OBJ = LoadAnimMesh_Strict("GFX\npcs\SCP_049.b3d")
 	HideEntity NPC049OBJ
 	NPC0492OBJ = LoadAnimMesh_Strict("GFX\npcs\zombie1.b3d")
 	HideEntity NPC0492OBJ

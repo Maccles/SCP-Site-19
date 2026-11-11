@@ -1,0 +1,27 @@
+Implemented Features:
+-New LCZ Style
+-New SCP-173 Behaviour
+-New Document Style & Model
+-New Keycard Textures
+-New SCP-049 Texture
+
+Work in progress features:
+-HCZ redesign
+-New SCPs
+-SCP-178
+-New UI
+-More SCP-939 sub-areas
+
+Planned Features:
+-SCP Chamber redesigns
+-Staff Rooms (Break rooms, cafe's, mini-hallway coffee shops and etc)
+-EZ redesign (More civilian, less industrial and containment focused? dorms? offices?)
+-Redone progression system (start in heavy, collect low tier key cards to get to light to upgrade?)
+-New sound design
+
+Potential Features (if I get more experience or team members)
+-SCP-4975 (unpredictable stalker that when hunting the player will make the clicking sounds before attacking)
+-New soundtrack
+-SCP-939 remodel?
+-Reworked MTF soundsystem (similar to HL1 marines with modular lines based on short clips put together, allowing for more reactive callouts. Or more voice lines per NPC with different VA's)
+-Fixed bump map scaling)
