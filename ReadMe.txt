@@ -2,11 +2,14 @@
 
 ***********************************************************************************
 
-**************************    SCP - CONTAINMENT BREACH   **************************
+**************************    SCP - SITE-19   **************************
+********************* An SCP - CONTAINMENT BREACH Mod   **************************
 
 ***********************************************************************************
 
-				 www.scpcbgame.com
+SCP - Containment Breach's website: www.scpcbgame.com
+SCP - Containment Breach 1.3.12's Steam page: https://store.steampowered.com/app/2178380/SCP_Containment_Breach/
+SCP: Site-19's ModDB page: https://www.moddb.com/mods/scp-containment-breach-site-19
 							
 
 
@@ -19,13 +22,15 @@ This game is licensed under Creative Commons Attribution-ShareAlike 3.0 License.
 http://creativecommons.org/licenses/by-sa/3.0/
 
 
-The source code of the game is available on GitHub: https://github.com/Regalis11/scpcb
+The source code of 1.3.11 is available on GitHub: https://github.com/Regalis11/scpcb
+The source code of 1.3.12 is available on GitHub: https://github.com/SCP-CB-CPP/scpcb
+The source code of SCP: Site-19 is available on GitHub: https://github.com/Maccles/SCP-Site-19
 
 
 
 **** HOW TO RUN IT **************************************
 
-	Run SCP - Containment Breach.exe in the game folder. 
+	Run SCP - Site-19.exe in the game folder. 
 	Select which resolution you want to use and click the LAUNCH-button.
 
 	SCP-CB uses an engine called Blitz3D, and since it's a fairly outdated one,
