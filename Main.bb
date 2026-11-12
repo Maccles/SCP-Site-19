@@ -7882,8 +7882,8 @@ Function LoadEntities()
 	LiquidObj = LoadMesh_Strict("GFX\items\cupliquid.x") ;optimized the cups dispensed by 294
 	HideEntity LiquidObj
 	
-	MTFObj = LoadAnimMesh_Strict("GFX\npcs\MTF2.b3d") ;optimized MTFs
-	GuardObj = LoadAnimMesh_Strict("GFX\npcs\guard.b3d") ;optimized Guards
+	MTFObj = LoadAnimMesh_Strict("GFX\npcs\MTF_NTF.b3d") ;optimized MTFs
+	GuardObj = LoadAnimMesh_Strict("GFX\npcs\guard_regular.b3d") ;optimized Guards
 	;GuardTex = LoadTexture_Strict("GFX\npcs\body.jpg") ;optimized the guards even more
 	
 	;If BumpEnabled Then
